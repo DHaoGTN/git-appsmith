@@ -1,0 +1,1 @@
+DELETE FROM public."wifi_applications" WHERE application_id = {{this.params.applicationId}};

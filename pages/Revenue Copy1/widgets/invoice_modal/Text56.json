@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 1,
-    "bottomRow": 6,
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 15.28125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,8 +30,9 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Your {{get_billing_by_month.data[0].month}} invoice",
     "key": "l14jgoryw8",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 25,
+    "rightColumn": 49,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "60y3pjsq50",
@@ -55,5 +56,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 6,
     "fontSize": "1.875rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

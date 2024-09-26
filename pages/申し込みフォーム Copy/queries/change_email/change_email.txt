@@ -1,0 +1,3 @@
+UPDATE public."agency_accounts"
+SET email = '{{this.params.new_email}}'
+WHERE email = '{{this.params.current_email}}';

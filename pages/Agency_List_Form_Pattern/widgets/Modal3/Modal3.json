@@ -1,7 +1,9 @@
 {
+    "mobileWidthInPercentage": 0.37265625,
     "boxShadow": "none",
     "mobileBottomRow": 203,
     "widgetName": "Modal3",
+    "widthInPercentage": 0.37265625,
     "isCanvas": true,
     "displayName": "Modal",
     "iconSVG": "/static/media/icon.b374721fa8e1aeab7cf326c2d865506f.svg",
@@ -10,8 +12,8 @@
         "popup",
         "notification"
     ],
-    "topRow": 179,
-    "bottomRow": 419,
+    "topRow": 161.99999999999997,
+    "bottomRow": 173.19999999999996,
     "parentRowSpace": 10,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -19,7 +21,7 @@
     "mobileRightColumn": 38,
     "animateLoading": true,
     "parentColumnSpace": 16.637344360351562,
-    "leftColumn": 14,
+    "leftColumn": 20,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -27,20 +29,22 @@
         "widgetName": "Canvas10",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 240,
+        "bottomRow": 112.00000000000001,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 240,
+        "minHeight": 110,
         "mobileRightColumn": 399.2962646484375,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "isDisabled": false,
         "key": "v0vkd5ufh5",
         "isDeprecated": false,
@@ -60,12 +64,33 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [
+                {
+                    "id": "ll597mhx5o",
+                    "align": "start"
+                },
+                {
+                    "id": "vfzv19cgdj",
+                    "align": "end"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "zt3kspz65r",
+                    "align": "end"
+                },
+                {
+                    "id": "whtuvt31nh",
+                    "align": "end"
+                }
+            ]}
+        ]
     }],
     "key": "uiupm73sog",
-    "height": 240,
+    "height": 114.00000000000001,
     "isDeprecated": false,
-    "rightColumn": 38,
+    "rightColumn": 44,
     "detachFromLayout": true,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "s11094zbeq",
@@ -77,9 +102,10 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 179,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 14,
     "maxDynamicHeight": 9000,
     "width": 456,
-    "minDynamicHeight": 24
+    "minDynamicHeight": 8
 }

@@ -9,8 +9,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 38,
-    "bottomRow": 82,
+    "topRow": 88.2,
+    "bottomRow": 132.2,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -23,7 +23,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 16,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "fontFamily"},
@@ -169,10 +169,12 @@
     },
     "key": "qmn359r1v3",
     "showDataPointLabel": false,
+    "flexVerticalAlignment": "start",
     "isDeprecated": false,
     "rightColumn": 64,
     "widgetId": "zmyx3nb8zl",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "0",
@@ -181,9 +183,11 @@
     "isLoading": false,
     "yAxisName": "",
     "originalTopRow": 86,
+    "responsiveBehavior": "fill",
     "chartName": "Contracts per month",
     "borderRadius": "0px",
     "xAxisName": "",
     "originalBottomRow": 130,
-    "chartType": "LINE_CHART"
+    "chartType": "LINE_CHART",
+    "alignment": "end"
 }

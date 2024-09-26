@@ -3,8 +3,8 @@
     "widgetName": "editEquipment",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b52.svg",
-    "topRow": 15,
-    "bottomRow": 19,
+    "topRow": 15.600000000000001,
+    "bottomRow": 19.6,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,10 +19,11 @@
     "truncateButtonColor": "#FFC13D",
     "text": "{{workOrdersTable.triggeredRow.equipment}}",
     "key": "sf3h3c9rxg",
+    "flexVerticalAlignment": "end",
     "labelTextSize": "0.875rem",
-    "rightColumn": 48,
+    "rightColumn": 64,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "2tpeti2iys",
     "logBlackList": {
         "widgetName": true,
@@ -55,6 +56,7 @@
         "isLoading": true,
         "fontSize": true
     },
+    "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
@@ -62,8 +64,10 @@
     "parentId": "cryduleyoi",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "fontSize": "1rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

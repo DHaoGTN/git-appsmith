@@ -1,0 +1,1 @@
+SELECT service_type_codes FROM public."agencies" WHERE id = {{this.params.agencyId}};

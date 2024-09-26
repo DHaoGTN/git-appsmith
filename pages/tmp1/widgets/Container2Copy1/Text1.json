@@ -7,8 +7,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 1,
-    "bottomRow": 5,
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -17,7 +17,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 4.3310546875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 15,
+    "leftColumn": 59.733333333333334,
     "dynamicBindingPathList": [
         {"key": "fontFamily"},
         {"key": "borderRadius"}
@@ -25,11 +25,13 @@
     "shouldTruncate": false,
     "text": "Total Contracts",
     "key": "8ao8442ejy",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 85.33333333333334,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "w3pehp3ecj",
+    "minWidth": 450,
     "isVisible": true,
     "fontStyle": "",
     "textColor": "#231F20",
@@ -37,8 +39,10 @@
     "parentId": "cphvtq5v0v",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
     "fontSize": "0.875rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

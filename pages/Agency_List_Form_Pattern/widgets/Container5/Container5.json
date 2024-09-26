@@ -12,7 +12,7 @@
         "group"
     ],
     "topRow": 0,
-    "bottomRow": 88,
+    "bottomRow": 64.6,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.296875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -32,19 +32,21 @@
         "widgetName": "Canvas8",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 880,
+        "bottomRow": 646,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 100,
+        "minHeight": 650,
         "mobileRightColumn": 463.125,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "key": "t5iplzs8e0",
         "isDeprecated": false,
         "rightColumn": 463.125,
@@ -64,14 +66,27 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [{
+                "id": "hoe88fyti2",
+                "align": "end"
+            }]},
+            {"children": [{
+                "id": "p1lbnpwctw",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "kp5w51utgc",
+                "align": "center"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "flexVerticalAlignment": "stretch",
     "key": "7au97efuvd",
     "backgroundColor": "#93c5fd",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "s3whvu6zjc",
     "containerStyle": "card",
@@ -89,5 +104,6 @@
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 91,
+    "alignment": "center",
     "minDynamicHeight": 10
 }

@@ -1,0 +1,32 @@
+{
+  "unpublishedCollection": {
+    "name": "messages",
+    "pageId": "申し込みフォーム Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "Auth",
+        "value": "{\n  LOGOUT_SUCCESS: 'You have been logged out.',\n  SESSION_EXPIRED: 'Your session have been expired, please log in again.',\n  GENERAL_ERROR: 'Something wrong, please login again!'\n}"
+      },
+      {
+        "name": "Form",
+        "value": "{\n  RESULT_CODE: ' Result code: ',\n  GET_SERVICE_TYPE_FAILURE: 'Can not retrieve service type code.',\n  EMAIL_SEND_SUCCESS: 'メール送信が成功しました！　Email was sent successfully!',\n  EMAIL_SEND_FAILURE: 'メール送信が失敗しました！　There are an error when sending email. Please try again.',\n  VALIDATE_ERROR_GENERAL: 'Please fill all of required fields and check data correctly.',\n  APPLICATION_CREATED_SUCCESS: 'Application was created successfully. We will inform by sending email to person in charge for this application.',\n  APPLICATION_CREATED_FAILURE: 'There are an error when saving information. Please try again.'\n}"
+      },
+      {
+        "name": "Other",
+        "value": "{\n  COPY_LINK_SUCCESS: 'Link was copied to clipboard!'\n}"
+      },
+      {
+        "name": "Error",
+        "value": "{\n  SESSION_EXPIRED: 'Your session have been expired, please log in again.'\n}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "申し込みフォーム Copy_messages",
+  "deleted": false,
+  "gitSyncId": "65792b023010c95d5f5a84a2_65c0afd07083d359c781e449"
+}

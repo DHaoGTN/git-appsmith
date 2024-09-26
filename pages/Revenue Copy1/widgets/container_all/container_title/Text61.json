@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 1,
-    "bottomRow": 5,
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 4.763493537902832,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,8 +29,9 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "契約報告一覧",
     "key": "8d4pt6bxg0",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 15,
+    "rightColumn": 28,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "5yt78ngkcj",
@@ -54,5 +55,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 6,
     "fontSize": "1.25rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

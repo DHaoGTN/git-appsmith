@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 61,
-    "bottomRow": 69,
+    "topRow": 20.8,
+    "bottomRow": 24.8,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "Roboto",
     "parentColumnSpace": 11.976747512817383,
     "dynamicTriggerPathList": [],
-    "leftColumn": 7,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -28,8 +28,9 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "If you have any questions, please contact us, 000-0900-1234, email@gmail.com\n\n<span style=\" font-weight: bold;font-size:20px\">THANK YOU FOR YOUR BUSINESS!<\/span>",
     "key": "l14jgoryw8",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 60,
+    "rightColumn": 64,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "v7io7y89f2",
@@ -53,5 +54,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 69,
     "fontSize": "1rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

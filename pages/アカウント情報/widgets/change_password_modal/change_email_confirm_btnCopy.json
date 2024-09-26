@@ -12,14 +12,14 @@
         "click",
         "submit"
     ],
-    "topRow": 35,
-    "bottomRow": 39,
+    "topRow": 28.599999999999998,
+    "bottomRow": 32.599999999999994,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 63,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 41,
+    "leftColumn": 46.780269058295964,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"},
@@ -28,8 +28,9 @@
     "text": "Submit",
     "isDisabled": "{{ !(confirm_password_input.isValid)\n|| !(current_password_input.text.length!==0)\n|| !(new_password_input.text.length!==0)\n}}",
     "key": "9m92eduwma",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 57,
+    "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "widgetId": "ot2pvohoop",
     "buttonStyle": "PRIMARY_BUTTON",
@@ -47,5 +48,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
     "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "end"
 }

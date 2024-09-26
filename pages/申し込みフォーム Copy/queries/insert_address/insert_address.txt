@@ -1,0 +1,2 @@
+--INSERT INTO public."addresses" (applicant_id, postal_code, prefecture, city, address_detail, building, room_number) VALUES (2, 'a', 'a', 'city', 'ad', 'b', 'r');
+INSERT INTO public."addresses" (applicant_id, postal_code, prefecture, city, address_detail, building, room_number) VALUES ({{this.params.applicantId}}, '{{this.params.postalCode}}', '{{this.params.prefecture}}', '{{this.params.city}}', '{{this.params.addressDetail}}', '{{this.params.building}}', '{{this.params.room}}');

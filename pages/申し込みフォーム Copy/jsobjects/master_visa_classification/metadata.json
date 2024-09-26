@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "master_visa_classification",
+    "pageId": "申し込みフォーム Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "japanVisaClassification",
+        "value": "[\"留学\", \"人文知識・国際業務\", \"技能実習\", \"特定活動\", \"永住者\", \"定住者\", \"家族滞在\", \"特定技能\", \"技能\", \"企業内転勤\", \"技術\", \"文化活動\", \"日本人の配偶者等\", \"永住者の配偶者等\", \"教授\", \"教育\", \"高度専門職\", \"介護\", \"興行\", \"宗教\", \"投資・経営\", \"短期滞在\", \"公用\", \"研修\", \"研究\", \"外交\", \"報道\", \"芸術\", \"その他\"]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "申し込みフォーム Copy_master_visa_classification",
+  "deleted": false,
+  "gitSyncId": "65792b023010c95d5f5a84a2_65c0afd07083d359c781e43f"
+}

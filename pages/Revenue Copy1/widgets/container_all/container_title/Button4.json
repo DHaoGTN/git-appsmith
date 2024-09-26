@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 1,
-    "bottomRow": 5,
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 18.5712890625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 54,
+    "leftColumn": 56,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"},
@@ -30,8 +30,9 @@
     "text": "ダウンロード",
     "isDisabled": "{{year_month_treeselect.selectedOptionValue.length ===4}}",
     "key": "tbh90py3rb",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "widgetId": "irxqd087k5",
     "minWidth": 120,
@@ -50,5 +51,6 @@
     "mobileLeftColumn": 17,
     "originalBottomRow": 57,
     "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "end"
 }

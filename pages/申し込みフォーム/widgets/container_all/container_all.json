@@ -12,7 +12,7 @@
         "group"
     ],
     "topRow": 0,
-    "bottomRow": 379,
+    "bottomRow": 375.59218749999997,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -32,19 +32,21 @@
         "widgetName": "Canvas8",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 3790,
+        "bottomRow": 3755.9218749999995,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 100,
+        "minHeight": 3780,
         "mobileRightColumn": 463.125,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "key": "t5iplzs8e0",
         "isDeprecated": false,
         "rightColumn": 463.125,
@@ -64,14 +66,27 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [{
+                "id": "p1lbnpwctw",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "2gnqq1ffou",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "kp5w51utgc",
+                "align": "start"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "flexVerticalAlignment": "stretch",
     "key": "7au97efuvd",
     "backgroundColor": "#d6e8f5",
     "isDeprecated": false,
-    "rightColumn": 60,
+    "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "s3whvu6zjc",
     "containerStyle": "card",
@@ -89,5 +104,6 @@
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 379,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

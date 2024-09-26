@@ -10,8 +10,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 140,
-    "bottomRow": 180,
+    "topRow": 197.39999999999992,
+    "bottomRow": 237.39999999999992,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -23,7 +23,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 15,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "fontFamily"},
@@ -171,10 +171,12 @@
     },
     "key": "atkbejtqfb",
     "showDataPointLabel": true,
+    "flexVerticalAlignment": "start",
     "isDeprecated": false,
-    "rightColumn": 38,
+    "rightColumn": 32,
     "widgetId": "uvpecv47g2",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "0",
@@ -183,9 +185,11 @@
     "isLoading": false,
     "yAxisName": "user (人)",
     "originalTopRow": 188,
+    "responsiveBehavior": "fill",
     "chartName": "",
     "borderRadius": "0.375rem",
     "xAxisName": "Application id",
     "originalBottomRow": 228,
-    "chartType": "COLUMN_CHART"
+    "chartType": "COLUMN_CHART",
+    "alignment": "end"
 }

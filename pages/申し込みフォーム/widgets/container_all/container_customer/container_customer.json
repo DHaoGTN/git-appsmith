@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 12,
-    "bottomRow": 22,
+    "topRow": 16.2,
+    "bottomRow": 24.0375,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -33,19 +33,21 @@
         "widgetName": "Canvas15",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 100,
+        "bottomRow": 78.37500000000003,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 100,
+        "minHeight": 60,
         "mobileRightColumn": 402.8203125,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "key": "0yh60ug7oe",
         "isDeprecated": false,
         "rightColumn": 402.8203125,
@@ -65,14 +67,27 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [{"children": [
+            {
+                "id": "a44wb3ymdu",
+                "align": "center"
+            },
+            {
+                "id": "3ngm7fz8bm",
+                "align": "center"
+            },
+            {
+                "id": "3ejpk6kdph",
+                "align": "center"
+            }
+        ]}]
     }],
     "borderWidth": "1",
     "flexVerticalAlignment": "stretch",
     "key": "lpptyo6f5l",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 60,
+    "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "2gnqq1ffou",
     "containerStyle": "card",
@@ -90,5 +105,6 @@
     "mobileLeftColumn": 3,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 22,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

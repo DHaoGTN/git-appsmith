@@ -1,0 +1,1 @@
+SELECT * FROM  public."agency_accounts" WHERE email = '{{this.params.email}}';

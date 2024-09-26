@@ -1,0 +1,1 @@
+DELETE FROM public."credit_card_applications" WHERE application_id = {{this.params.applicationId}};

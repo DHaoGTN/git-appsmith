@@ -1,7 +1,9 @@
 {
+    "mobileWidthInPercentage": 0.2173828125,
     "boxShadow": "none",
     "mobileBottomRow": 9,
     "widgetName": "Image4",
+    "widthInPercentage": 0.2173828125,
     "displayName": "Image",
     "iconSVG": "/static/media/icon.69b0f0dd810281fbd6e34fc2c3f39344.svg",
     "topRow": 0,
@@ -21,7 +23,7 @@
     "key": "l8ftqqpz8u",
     "image": "https://www.gtn.co.jp/assets/gtn-corp/img/common/logo.svg",
     "isDeprecated": false,
-    "rightColumn": 14,
+    "rightColumn": 14.08805031446541,
     "objectFit": "auto",
     "widgetId": "mn9tpuig1r",
     "isVisible": true,
@@ -33,7 +35,9 @@
     "mobileTopRow": 1,
     "maxZoomLevel": 1,
     "enableDownload": false,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "enableRotation": false
+    "enableRotation": false,
+    "alignment": "start"
 }

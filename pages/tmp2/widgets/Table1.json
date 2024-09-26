@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 30,
+    "topRow": 51,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -28,7 +28,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 15,
+    "leftColumn": 2.0125786163522013,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -72,6 +72,7 @@
     "originalBottomRow": 81,
     "primaryColumnId": "id",
     "defaultSelectedRowIndices": [0],
+    "alignment": "end",
     "mobileBottomRow": 137,
     "widgetName": "Table1",
     "defaultPageSize": 0,
@@ -91,7 +92,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 81,
+    "bottomRow": 102.00000000000001,
     "columnWidthMap": {
         "application_code": 152,
         "id": 60
@@ -426,7 +427,7 @@
     "key": "gs3pq1qg4b",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "56uz4486fp",
     "minWidth": 450,

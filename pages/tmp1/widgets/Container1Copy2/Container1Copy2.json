@@ -10,8 +10,8 @@
         "parent",
         "group"
     ],
-    "topRow": 10,
-    "bottomRow": 182,
+    "topRow": 10.2,
+    "bottomRow": 44.599999999999994,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -26,18 +26,20 @@
         "widgetName": "Canvas1Copy2",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 1720,
+        "bottomRow": 344,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 980,
+        "minHeight": 320,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "accentColor"}
         ],
+        "positioning": "vertical",
         "key": "ok1ci5kt2b",
         "isDeprecated": false,
         "rightColumn": 475.5,
@@ -50,24 +52,55 @@
         "parentId": "gecaiirwf6",
         "renderMode": "CANVAS",
         "isLoading": false,
-        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+        "responsiveBehavior": "fill",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "flexLayers": [
+            {"children": [
+                {
+                    "id": "3olyx2jlxm",
+                    "align": "center"
+                },
+                {
+                    "id": "aoyynb7un4",
+                    "align": "center"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "47f0d5z9e2",
+                    "align": "center"
+                },
+                {
+                    "id": "jgrmi95jy0",
+                    "align": "center"
+                }
+            ]},
+            {"children": [{
+                "id": "ce3utf8bwx",
+                "align": "end"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "key": "7jawjh2cqc",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "#ef4444",
     "isDeprecated": false,
-    "rightColumn": 13,
+    "rightColumn": 32,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "gecaiirwf6",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
     "originalTopRow": 10,
+    "responsiveBehavior": "fill",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 182,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

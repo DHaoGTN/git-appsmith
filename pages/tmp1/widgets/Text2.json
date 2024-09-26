@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 86,
-    "bottomRow": 90,
+    "topRow": 138.59999999999997,
+    "bottomRow": 142.59999999999997,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 19.296875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 21,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,8 +29,9 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Nationality allocation",
     "key": "r7jkbs6wyt",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 21.333333333333332,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "5ls6290lnp",
@@ -54,5 +55,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 138,
     "fontSize": "1.25rem",
+    "alignment": "end",
     "minDynamicHeight": 4
 }

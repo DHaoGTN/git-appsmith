@@ -7,39 +7,71 @@
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
+          "topRow": 0,
+          "bottomRow": 1811.9999999999995,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 1170,
+          "useAutoLayout": true,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 1160,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 880,
           "containerStyle": "none",
           "snapRows": 125,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
           "version": 87,
-          "minHeight": 1170,
-          "parentColumnSpace": 1,
-          "dynamicTriggerPathList": [],
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
+          "responsiveBehavior": "fill",
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "s3whvu6zjc",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "i3whp03wf0",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "j7nuyozdc9",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "8x9s0b1rlo",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "s11094zbeq",
+                  "align": "center"
+                }
+              ]
+            }
+          ]
         },
         "layoutOnLoadActions": [
-          [
-            {
-              "id": "Agency_List_Form_Pattern_start_up.loggedInByPassword",
-              "name": "start_up.loggedInByPassword",
-              "collectionId": "Agency_List_Form_Pattern_start_up",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  const token = await appsmith.store.token;\n  const tokenInDb = await check_token_exist.run({\n    token\n  });\n  const tokenCountInDb = tokenInDb[0]['count'];\n  if (token !== undefined && tokenCountInDb === 1) {\n    console.log('do nothing');\n  } else if (token === undefined && tokenCountInDb === 0 && appsmith.mode !== 'EDIT') {\n    navigateTo('Login');\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
           [
             {
               "id": "Agency_List_Form_Pattern_loop_check_token.loopToCheckTokenExist",
@@ -49,6 +81,17 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "async function () {\n  if (!loop_check_token.intervalId) {\n    const process = async () => {\n      const token = appsmith.store.token;\n      loop_check_token.checkValidTokenInDb();\n      const tokenInDb = await check_token_exist.run({\n        token\n      });\n      const tokenCountInDb = tokenInDb[0]['count'];\n      console.log('tokenCountInDb', tokenCountInDb);\n      if (tokenCountInDb === 0 && appsmith.mode !== 'EDIT') {\n        navigateTo('Login');\n      }\n    };\n    loop_check_token.intervalId = setInterval(process, 5000);\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Agency_List_Form_Pattern_start_up.loggedInByPassword",
+              "name": "start_up.loggedInByPassword",
+              "collectionId": "Agency_List_Form_Pattern_start_up",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async function () {\n  const token = await appsmith.store.token;\n  const tokenInDb = await check_token_exist.run({\n    token\n  });\n  const tokenCountInDb = tokenInDb[0]['count'];\n  if (token !== undefined && tokenCountInDb === 1) {\n    console.log('do nothing');\n  } else if (token === undefined && tokenCountInDb === 0 && appsmith.mode !== 'EDIT') {\n    navigateTo('Login');\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }

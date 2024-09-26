@@ -1,0 +1,75 @@
+{
+    "boxShadow": "none",
+    "widthInPercentage": 0.683935546875,
+    "iconSVG": "/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
+    "topRow": 39.71562499999929,
+    "labelWidth": 5,
+    "type": "RADIO_GROUP_WIDGET",
+    "topRowBeforeCollapse": 32,
+    "defaultOptionValue": "",
+    "animateLoading": true,
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "isVisible"}
+    ],
+    "options": [
+        {
+            "label": "9am-12pm",
+            "value": "9am-12pm"
+        },
+        {
+            "label": "1pm-3pm",
+            "value": "1pm-3pm"
+        },
+        {
+            "label": "3pm-5pm",
+            "value": "3pm-5pm"
+        },
+        {
+            "label": "5pm-7pm(日曜・祝日不可 Sunday, Holiday unavailable)",
+            "value": "5pm-7pm"
+        }
+    ],
+    "isDisabled": false,
+    "flexVerticalAlignment": "start",
+    "isRequired": true,
+    "dynamicHeight": "FIXED",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "bottomRowBeforeCollapse": 45,
+    "isVisible": "{{utility_type_radiogrp.selectedOptionValue == 'both' || utility_type_radiogrp.selectedOptionValue == 'gas'}}",
+    "version": 1,
+    "tags": ["Toggles"],
+    "isLoading": false,
+    "originalBottomRow": 50.375,
+    "alignment": "start",
+    "mobileWidthInPercentage": 0.683935546875,
+    "mobileBottomRow": 55,
+    "widgetName": "gas_start_time_radiogrp",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "displayName": "Radio Group",
+    "searchTags": ["choice"],
+    "bottomRow": 50.37187499999787,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 21,
+    "parentColumnSpace": 10.605757236480713,
+    "dynamicTriggerPathList": [],
+    "labelPosition": "Top",
+    "key": "gbx2w3hph0",
+    "labelTextSize": "0.875rem",
+    "isDeprecated": false,
+    "rightColumn": 47,
+    "widgetId": "i5f8cdatut",
+    "label": "",
+    "parentId": "j5sv4xls68",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 49,
+    "originalTopRow": 39.71875,
+    "responsiveBehavior": "hug",
+    "mobileLeftColumn": 1,
+    "maxDynamicHeight": 9000,
+    "isInline": false,
+    "minDynamicHeight": 4
+}

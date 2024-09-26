@@ -14,15 +14,15 @@
         }
     },
     "dynamicPropertyPathList": [],
-    "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 1,
-    "bottomRow": 6,
+    "displayName": "Menu button",
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 30,
     "topRowBeforeCollapse": 4,
+    "mobileRightColumn": 30,
     "animateLoading": true,
     "parentColumnSpace": 27.611083984375,
     "dynamicTriggerPathList": [
@@ -30,7 +30,7 @@
         {"key": "menuItems.menuItem3dfuthklaq.onClick"},
         {"key": "menuItems.menuItemo22spze7ps.onClick"}
     ],
-    "leftColumn": 51,
+    "leftColumn": 54.0646830530401,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "menuItems.menuItem3dfuthklaq.label"},
@@ -38,11 +38,13 @@
     ],
     "isDisabled": false,
     "sourceData": "[]",
+    "flexVerticalAlignment": "end",
     "key": "0gcavasjcu",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "menuVariant": "PRIMARY",
     "widgetId": "hoe88fyti2",
+    "bottomRowBeforeCollapse": 9,
     "menuItems": {
         "menuItem3dfuthklaq": {
             "onClick": "",
@@ -76,21 +78,22 @@
             "isVisible": true
         }
     },
-    "bottomRowBeforeCollapse": 9,
     "isVisible": true,
     "label": "{{appsmith.store.user['last_name']}}\n{{appsmith.store.user['first_name']}}\n",
     "version": 1,
     "parentId": "qo98syvw3b",
     "tags": ["Buttons"],
-    "renderMode": "CANVAS",
     "isLoading": false,
+    "renderMode": "CANVAS",
     "mobileTopRow": 3,
     "originalTopRow": 4,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 14,
     "menuItemsSource": "STATIC",
     "menuColor": "#ffc13d",
     "originalBottomRow": 9,
     "iconAlign": "left",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "center"
 }

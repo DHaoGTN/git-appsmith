@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{form.rpaUrl}}",
+      "path": "{{auth.rpaBE}}",
       "headers": [
         {
           "key": "Authorization",
@@ -38,7 +38,7 @@
       "body": "",
       "bodyFormData": [
         {
-          "key": "application_id",
+          "key": "id",
           "value": "{{form.applicationId}}"
         }
       ],
@@ -70,8 +70,8 @@
     "messages": [],
     "jsonPathKeys": [
       "auth.jwtBE",
-      "form.applicationId",
-      "form.rpaUrl"
+      "auth.rpaBE",
+      "form.applicationId"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

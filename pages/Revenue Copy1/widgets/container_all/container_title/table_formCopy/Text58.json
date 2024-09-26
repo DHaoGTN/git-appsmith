@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 4,
-    "bottomRow": 16,
+    "topRow": 5.2,
+    "bottomRow": 9.2,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.633596420288086,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,10 +30,11 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "名称         :  {{get_agency_by_id.data[0].name}}                     \n住所詳細 : {{get_agency_by_id.data[0].zip_code}} ,{{get_agency_by_id.data[0].prefecture}},{{get_agency_by_id.data[0].city}}, \n                   {{get_agency_by_id.data[0].building}}, {{get_agency_by_id.data[0].address_detail}}. \n電話番号 : {{get_agency_by_id.data[0].phone_number}}                                       \n作成日 : {{get_agency_by_id.data[0].created_at.slice(0,10)}}\n",
     "key": "l14jgoryw8",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "q8uxr73yws",
     "minWidth": 450,
     "isVisible": true,
@@ -53,5 +54,6 @@
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
     "fontSize": "0.875rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

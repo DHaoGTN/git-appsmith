@@ -2,15 +2,15 @@
     "mobileBottomRow": 8,
     "widgetName": "Text43",
     "dynamicPropertyPathList": [{"key": "fontSize"}],
-    "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
+    "displayName": "Text",
+    "topRow": 15.600000000000001,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "topRow": 19,
-    "bottomRow": 24,
+    "bottomRow": 19.6,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 9.046006202697754,
     "dynamicTriggerPathList": [],
-    "leftColumn": 7,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,9 +29,10 @@
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "クレジットカード（GTNエポスカード）はGTNのサービスをご利用の方限定のカードとなります。 Please note that GTN EPOS Card is available only for customers using GTN services.",
+    "flexVerticalAlignment": "end",
     "key": "ll5l55z1hj",
     "isDeprecated": false,
-    "rightColumn": 45,
+    "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "0vlpdsi8m6",
@@ -45,8 +46,8 @@
         "Suggested",
         "Content"
     ],
-    "renderMode": "CANVAS",
     "isLoading": false,
+    "renderMode": "CANVAS",
     "mobileTopRow": 4,
     "responsiveBehavior": "fill",
     "originalTopRow": 19,
@@ -55,5 +56,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 27,
     "fontSize": "0.7rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

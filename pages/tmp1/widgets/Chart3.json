@@ -3,15 +3,15 @@
     "mobileBottomRow": 175,
     "widgetName": "Chart3",
     "allowScroll": false,
-    "displayName": "Chart",
     "iconSVG": "/static/media/icon.8eea39845729f7f4bfadeecd3810a09d.svg",
+    "displayName": "Chart",
+    "topRow": 197.39999999999992,
     "searchTags": [
         "graph",
         "visuals",
         "visualisations"
     ],
-    "topRow": 140,
-    "bottomRow": 180,
+    "bottomRow": 237.39999999999992,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -33,7 +33,7 @@
         {"key": "chartData.xw68kc6jk3.data"},
         {"key": "chartData.xw68kc6jk3.seriesName"}
     ],
-    "leftColumn": 41,
+    "leftColumn": 32,
     "customFusionChartConfig": {
         "type": "column2d",
         "dataSource": {
@@ -86,17 +86,17 @@
     "showDataPointLabel": false,
     "key": "ud4gzrs4c7",
     "isDeprecated": false,
-    "rightColumn": 63,
-    "widgetId": "wa8ogzgbiw",
+    "rightColumn": 64,
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "widgetId": "wa8ogzgbiw",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "0",
-    "labelOrientation": "auto",
     "tags": ["Display"],
-    "renderMode": "CANVAS",
+    "labelOrientation": "auto",
     "isLoading": false,
+    "renderMode": "CANVAS",
     "mobileTopRow": 143,
     "responsiveBehavior": "fill",
     "yAxisName": "Revenue(円)",
@@ -106,5 +106,6 @@
     "mobileLeftColumn": 38,
     "xAxisName": "application id",
     "originalBottomRow": 228,
-    "chartType": "COLUMN_CHART"
+    "chartType": "COLUMN_CHART",
+    "alignment": "end"
 }

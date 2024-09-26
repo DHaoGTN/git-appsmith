@@ -10,8 +10,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 90,
-    "bottomRow": 132,
+    "topRow": 143.79999999999995,
+    "bottomRow": 185.79999999999995,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -23,7 +23,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 41,
+    "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "fontFamily"},
@@ -171,10 +171,12 @@
     },
     "key": "atkbejtqfb",
     "showDataPointLabel": true,
+    "flexVerticalAlignment": "start",
     "isDeprecated": false,
     "rightColumn": 64,
     "widgetId": "8gdi2z44ti",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "0",
@@ -183,9 +185,11 @@
     "isLoading": false,
     "yAxisName": "Revenue($)",
     "originalTopRow": 138,
+    "responsiveBehavior": "fill",
     "chartName": "Application Id",
     "borderRadius": "0.375rem",
     "xAxisName": "Product Line",
     "originalBottomRow": 180,
-    "chartType": "PIE_CHART"
+    "chartType": "PIE_CHART",
+    "alignment": "end"
 }

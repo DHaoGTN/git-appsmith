@@ -1,0 +1,2 @@
+--INSERT INTO public."credit_card_applications" (application_id, status) VALUES (11, '1.未対応');
+INSERT INTO public."credit_card_applications" (application_id, status) VALUES ({{this.params.applicationId}}, '{{this.params.statusCard}}');

@@ -1,0 +1,99 @@
+{
+    "isCompact": false,
+    "boxShadow": "none",
+    "mobileBottomRow": 7,
+    "widgetName": "user_info_btn",
+    "configureMenuItems": {
+        "label": "Configure menu items",
+        "id": "config",
+        "config": {
+            "id": "config",
+            "label": "Menu Item",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "dynamicPropertyPathList": [],
+    "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
+    "displayName": "Menu button",
+    "topRow": 0,
+    "bottomRow": 4,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "topRowBeforeCollapse": 4,
+    "mobileRightColumn": 30,
+    "animateLoading": true,
+    "parentColumnSpace": 27.611083984375,
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItem3dfuthklaq.onClick"},
+        {"key": "menuItems.menuItemo22spze7ps.onClick"}
+    ],
+    "leftColumn": 54.0646830530401,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "menuItems.menuItem3dfuthklaq.label"},
+        {"key": "label"}
+    ],
+    "isDisabled": false,
+    "sourceData": "[]",
+    "flexVerticalAlignment": "end",
+    "key": "0gcavasjcu",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "menuVariant": "PRIMARY",
+    "widgetId": "x75b36ek9d",
+    "bottomRowBeforeCollapse": 9,
+    "menuItems": {
+        "menuItem3dfuthklaq": {
+            "onClick": "",
+            "widgetId": "mnthn746qx",
+            "iconColor": "#d4d4d8",
+            "index": 0,
+            "iconAlign": "right",
+            "id": "menuItem3dfuthklaq",
+            "label": "Email: {{appsmith.store.user['email']}}",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "menuItem1": {
+            "onClick": "{{auth.logout();}}",
+            "widgetId": "",
+            "index": 2,
+            "label": "Sign out",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItemo22spze7ps": {
+            "onClick": "{{navigateTo('Change User Info', {}, 'SAME_WINDOW');}}",
+            "iconName": "annotation",
+            "widgetId": "4k00fugvjx",
+            "index": 1,
+            "iconAlign": "right",
+            "id": "menuItemo22spze7ps",
+            "label": "Profile",
+            "isDisabled": false,
+            "isVisible": true
+        }
+    },
+    "isVisible": true,
+    "label": "{{appsmith.store.user['last_name']}}\n{{appsmith.store.user['first_name']}}\n",
+    "version": 1,
+    "parentId": "rdt1q9w0hl",
+    "tags": ["Buttons"],
+    "isLoading": false,
+    "renderMode": "CANVAS",
+    "mobileTopRow": 3,
+    "originalTopRow": 4,
+    "responsiveBehavior": "hug",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 14,
+    "menuItemsSource": "STATIC",
+    "menuColor": "#ffc13d",
+    "originalBottomRow": 9,
+    "iconAlign": "left",
+    "placement": "CENTER",
+    "alignment": "center"
+}

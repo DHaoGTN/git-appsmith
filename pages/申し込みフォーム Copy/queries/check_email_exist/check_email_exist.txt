@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count FROM public."agency_accounts" WHERE email = '{{this.params.new_email}}';

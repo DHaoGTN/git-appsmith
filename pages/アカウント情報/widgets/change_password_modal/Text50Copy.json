@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 1,
-    "bottomRow": 5,
+    "topRow": 0,
+    "bottomRow": 4,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 41,
@@ -17,7 +17,7 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -27,10 +27,11 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Change Password",
     "key": "85n48aitiv",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 41,
+    "rightColumn": 58.26008968609865,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "i5m5qnbke1",
     "minWidth": 450,
     "isVisible": true,
@@ -50,5 +51,6 @@
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
     "fontSize": "1.25rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

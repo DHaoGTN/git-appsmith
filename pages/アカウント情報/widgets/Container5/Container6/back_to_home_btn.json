@@ -11,8 +11,8 @@
         "click",
         "submit"
     ],
-    "topRow": 49,
-    "bottomRow": 54,
+    "topRow": 41.600000000000016,
+    "bottomRow": 45.600000000000016,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -20,13 +20,14 @@
     "animateLoading": true,
     "parentColumnSpace": 14.815673828125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 44,
+    "leftColumn": 51.24967658473479,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "ホームページに戻る",
     "isDisabled": false,
     "key": "a395lz8vuq",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 60,
+    "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "widgetId": "4w304zfpu3",
     "minWidth": 120,
@@ -45,5 +46,6 @@
     "mobileLeftColumn": 38,
     "originalBottomRow": 58,
     "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "end"
 }

@@ -15,8 +15,8 @@
         "click",
         "submit"
     ],
-    "topRow": 46,
-    "bottomRow": 50,
+    "topRow": 35.517187500000006,
+    "bottomRow": 39.517187500000006,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -24,7 +24,7 @@
     "animateLoading": true,
     "parentColumnSpace": 10.085840225219727,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 36,
+    "leftColumn": 56.543689320388346,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "isDisabled"}
@@ -32,8 +32,9 @@
     "text": "送信・Submit",
     "isDisabled": "{{!agreement1_cb.isChecked || !agreement2_cb.isChecked}}",
     "key": "c2sxf29q9r",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "widgetId": "zadck8z7sw",
     "minWidth": 120,
@@ -52,5 +53,6 @@
     "mobileLeftColumn": 36,
     "originalBottomRow": 50,
     "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "end"
 }

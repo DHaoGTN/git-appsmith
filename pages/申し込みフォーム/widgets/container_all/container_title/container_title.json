@@ -6,8 +6,8 @@
     "dynamicPropertyPathList": [{"key": "borderRadius"}],
     "displayName": "Container",
     "iconSVG": "/static/media/icon.1977dca3.svg",
-    "topRow": 1,
-    "bottomRow": 12,
+    "topRow": 0,
+    "bottomRow": 15,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -21,15 +21,17 @@
         "widgetName": "Canvas1Copy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 130,
+        "bottomRow": 150,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 400,
+        "minHeight": 150,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
+        "positioning": "vertical",
         "key": "ffadum178l",
         "labelTextSize": "0.875rem",
         "rightColumn": 433.5,
@@ -41,24 +43,43 @@
         "parentId": "p1lbnpwctw",
         "renderMode": "CANVAS",
         "isLoading": false,
-        "borderRadius": "0px"
+        "responsiveBehavior": "fill",
+        "borderRadius": "0px",
+        "flexLayers": [{"children": [
+            {
+                "id": "hnl6j6jwz4",
+                "align": "center"
+            },
+            {
+                "id": "93j1msdrnk",
+                "align": "center"
+            },
+            {
+                "id": "hoe88fyti2",
+                "align": "center"
+            }
+        ]}]
     }],
     "borderWidth": "0",
     "key": "6bzu8mpizb",
+    "flexVerticalAlignment": "stretch",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#2D969B",
-    "rightColumn": 60,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 64,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "p1lbnpwctw",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "i0qokivosc",
     "renderMode": "CANVAS",
     "isLoading": false,
     "originalTopRow": 12,
+    "responsiveBehavior": "fill",
     "borderRadius": "15px",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 27,
+    "alignment": "start",
     "minDynamicHeight": 4
 }

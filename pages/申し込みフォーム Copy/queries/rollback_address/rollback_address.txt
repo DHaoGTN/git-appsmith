@@ -1,0 +1,1 @@
+DELETE FROM public."addresses" WHERE applicant_id = {{this.params.applicantId}};

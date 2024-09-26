@@ -4,8 +4,8 @@
     "displayName": "Checkbox",
     "iconSVG": "/static/media/icon.7b004ee098ca948e952234e7baec6d11.svg",
     "searchTags": ["boolean"],
-    "topRow": 13,
-    "bottomRow": 17,
+    "topRow": 10.4,
+    "bottomRow": 14.4,
     "parentRowSpace": 10,
     "type": "CHECKBOX_WIDGET",
     "alignWidget": "LEFT",
@@ -14,7 +14,7 @@
     "animateLoading": true,
     "parentColumnSpace": 16.637344360351562,
     "dynamicTriggerPathList": [],
-    "leftColumn": 7,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -22,6 +22,8 @@
     "labelPosition": "Right",
     "isDisabled": false,
     "key": "smodrwv6mv",
+    "flexVerticalAlignment": "end",
+    "labelTextSize": "0.875rem",
     "isRequired": false,
     "isDeprecated": false,
     "rightColumn": 64,
@@ -44,5 +46,6 @@
     "defaultCheckedState": false,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 18,
+    "alignment": "end",
     "minDynamicHeight": 4
 }

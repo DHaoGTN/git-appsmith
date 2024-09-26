@@ -7,8 +7,8 @@
     "displayName": "Form",
     "iconSVG": "/static/media/icon.e17c486a34778f3bae299c9110e00cf6.svg",
     "searchTags": ["group"],
-    "topRow": 5,
-    "bottomRow": 24,
+    "topRow": 5.2,
+    "bottomRow": 16.400000000000002,
     "parentRowSpace": 10,
     "type": "FORM_WIDGET",
     "hideCard": false,
@@ -25,19 +25,21 @@
         "widgetName": "Canvas17Copy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 190,
+        "bottomRow": 112.00000000000001,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 400,
+        "minHeight": 180,
         "mobileRightColumn": 410.35400390625,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "key": "v87z2b0i1c",
         "isDeprecated": false,
         "rightColumn": 410.35400390625,
@@ -57,7 +59,16 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [{
+                "id": "2ou8kn4wxy",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "q8uxr73yws",
+                "align": "center"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "positioning": "fixed",
@@ -65,8 +76,8 @@
     "key": "x6m2qiyl9z",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 30,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 32,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "c4evf825ei",
     "minWidth": 450,
     "isVisible": true,
@@ -81,5 +92,6 @@
     "mobileLeftColumn": 13,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 25,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

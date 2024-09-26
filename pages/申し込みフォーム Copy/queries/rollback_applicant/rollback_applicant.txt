@@ -1,0 +1,2 @@
+--DELETE FROM public."applicants" WHERE id = 22;
+DELETE FROM public."applicants" WHERE id = {{this.params.applicantId}};

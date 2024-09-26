@@ -8,6 +8,29 @@ export default {
 		}
 	},
 
+	representativeInfo:async()=>{
+		await list_of_agency_accounts.run()
+		const data = list_of_agency_accounts.data;
+
+		if (data === undefined){
+			await list_of_agency_accounts.run()
+		}
+		for (const agency of data) {
+			if (agency.is_representative === true) {
+				const last_name = agency.last_name ? agency.last_name : "";
+				const full_name = `${last_name} ${agency.first_name}`;
+				const department = agency.department ? agency.department : "";
+				return { fullName: full_name, department: department };
+			}
+		}
+		const first_name = appsmith.store.user.first_name
+		const last_name = appsmith.store.user.last_name
+		const full_name = last_name + first_name
+		const department = appsmith.store.user.department
+		return { fullName: full_name, department: department };
+	},
+
+
 	createPDF: async () => {
 		////------------------ Data + Query ------------------////
 		const gtnSign = 'https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/415563709_381918244355199_5381862728633477902_n.png?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGWNMWCTaMvzxrLXX0f2pAph7OG-4HjIwuHs4b7geMjCyfKWcY3LwRPnzKrDS8DH6G9tNBoLjQeVDKPbk6kwEBL&_nc_ohc=kPv8oloNLrAAX-4NerV&_nc_ht=scontent.fdad2-1.fna&oh=03_AdQAEBBWcwt0gVAxXt-uEzQLSDyps4bOj1mwYl482g5I4w&oe=65CDA149'
@@ -20,6 +43,7 @@ export default {
 			const isHasBankInfo = agencyInfo[0].bank_name !== null
 
 			const userInfo = appsmith.store.user
+			const representativeInfo = await this.representativeInfo()
 			const invoiceDate = await this.lastDayOfMonth(year_month_treeselect.selectedOptionValue)
 			//---------------- Text Attribute--------------//
 			const textHeader = 16;
@@ -46,8 +70,14 @@ export default {
 			const pdfTittle = '契約報告書'
 			const customerCompany= agencyInfo[0].name
 			const customerNumber =agencyInfo[0].invoice_number ? `登録番号：${agencyInfo[0].invoice_number}` : ""
-			const customerDepartment= userInfo.department ? userInfo.department +"　部" : ""
-			const customerName= userInfo.first_name ? userInfo.last_name + userInfo.first_name :""
+			// const customerDepartment= userInfo.department ? userInfo.department +"　部" : ""
+			// const customerName= userInfo.first_name ? userInfo.last_name + userInfo.first_name :""
+			const customerDepartment= representativeInfo.department
+			const customerName= representativeInfo.fullName
+
+			// const customerDepartment= 'asd'
+			// const customerName= 'name'
+
 			const customerInfo= `${customerCompany} \n${customerNumber} \n${customerDepartment} \n${customerName}　様 `
 			const customerPayDate = invoiceDate.paymenDate 
 

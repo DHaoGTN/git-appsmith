@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 35,
-    "bottomRow": 44,
+    "topRow": 29.837499999999995,
+    "bottomRow": 35.4375,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "Inter",
     "parentColumnSpace": 10.085840225219727,
     "dynamicTriggerPathList": [],
-    "leftColumn": 10,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -28,10 +28,11 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Thank you for your application.\nPress the submit button to complete.",
     "key": "owcej3cp7p",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 55,
+    "rightColumn": 64,
     "textAlign": "CENTER",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "8fkdubshmm",
     "minWidth": 450,
     "isVisible": true,
@@ -53,5 +54,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 44,
     "fontSize": "1.25rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

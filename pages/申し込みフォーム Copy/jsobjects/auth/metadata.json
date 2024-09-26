@@ -1,0 +1,40 @@
+{
+  "unpublishedCollection": {
+    "name": "auth",
+    "pageId": "申し込みフォーム Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "secretBE",
+        "value": "'secret'"
+      },
+      {
+        "name": "baseUrlBE",
+        "value": "'http://affiliate-stg-api.gtn.co.jp/rpa/'"
+      },
+      {
+        "name": "getSecretBE",
+        "value": "auth.baseUrlBE + 'get_secret'"
+      },
+      {
+        "name": "rpaBE",
+        "value": "auth.baseUrlBE + 'application_forms'"
+      },
+      {
+        "name": "jwtBE",
+        "value": "''"
+      },
+      {
+        "name": "intervalId",
+        "value": "null"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "申し込みフォーム Copy_auth",
+  "deleted": false,
+  "gitSyncId": "65792b023010c95d5f5a84a2_65c0afd07083d359c781e443"
+}

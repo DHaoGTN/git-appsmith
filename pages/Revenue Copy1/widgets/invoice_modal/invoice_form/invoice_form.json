@@ -7,8 +7,8 @@
     "displayName": "Form",
     "iconSVG": "/static/media/icon.e17c486a34778f3bae299c9110e00cf6.svg",
     "searchTags": ["group"],
-    "topRow": 7,
-    "bottomRow": 80,
+    "topRow": 6.2,
+    "bottomRow": 33,
     "parentRowSpace": 10,
     "type": "FORM_WIDGET",
     "hideCard": false,
@@ -17,7 +17,7 @@
     "animateLoading": true,
     "parentColumnSpace": 17.09808349609375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -28,19 +28,21 @@
         "widgetName": "Canvas15Copy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 730,
+        "bottomRow": 268,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 400,
+        "minHeight": 560,
         "mobileRightColumn": 410.35400390625,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "key": "2ux1c2eomf",
         "isDeprecated": false,
         "rightColumn": 410.35400390625,
@@ -60,7 +62,38 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [
+                {
+                    "id": "sff1ynwyz4",
+                    "align": "start"
+                },
+                {
+                    "id": "sbxy7rdojs",
+                    "align": "center"
+                },
+                {
+                    "id": "zfl1ce20tv",
+                    "align": "end"
+                }
+            ]},
+            {"children": [{
+                "id": "evitz1s2mv",
+                "align": "end"
+            }]},
+            {"children": [{
+                "id": "zfx56fi1xi",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "jmj7mlfg0m",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "v7io7y89f2",
+                "align": "center"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "positioning": "fixed",
@@ -68,8 +101,8 @@
     "key": "0ciw9wti5z",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 63,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 64,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "mfr14ujwpb",
     "minWidth": 450,
     "isVisible": true,
@@ -84,5 +117,6 @@
     "mobileLeftColumn": 22,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 80,
+    "alignment": "center",
     "minDynamicHeight": 10
 }

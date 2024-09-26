@@ -1,0 +1,81 @@
+{
+    "mobileWidthInPercentage": 0.37265625,
+    "boxShadow": "none",
+    "widgetName": "alert_modal",
+    "widthInPercentage": 0.37265625,
+    "dynamicPropertyPathList": [{"key": "onClose"}],
+    "topRow": 427.24375000000464,
+    "bottomRow": 444.6437500000046,
+    "parentRowSpace": 10,
+    "type": "MODAL_WIDGET",
+    "shouldScrollContents": true,
+    "parentColumnSpace": 18.8828125,
+    "dynamicTriggerPathList": [{"key": "onClose"}],
+    "leftColumn": 20,
+    "dynamicBindingPathList": [],
+    "children": [{
+        "boxShadow": "none",
+        "widgetName": "Canvas3",
+        "topRow": 0,
+        "bottomRow": 170,
+        "parentRowSpace": 1,
+        "canExtend": true,
+        "type": "CANVAS_WIDGET",
+        "shouldScrollContents": false,
+        "minHeight": 170,
+        "useAutoLayout": true,
+        "parentColumnSpace": 1,
+        "dynamicTriggerPathList": [],
+        "leftColumn": 0,
+        "dynamicBindingPathList": [],
+        "positioning": "vertical",
+        "isDisabled": false,
+        "labelTextSize": "0.875rem",
+        "rightColumn": 453.1875,
+        "detachFromLayout": true,
+        "widgetId": "to5rplreck",
+        "isVisible": "true",
+        "version": 1,
+        "parentId": "50t658cyei",
+        "isLoading": false,
+        "responsiveBehavior": "fill",
+        "borderRadius": "0px",
+        "flexLayers": [
+            {"children": [{
+                "id": "umbjlja6bz",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "989uqa5i8p",
+                "align": "center"
+            }]},
+            {"children": [
+                {
+                    "id": "gn6tsvzbwo",
+                    "align": "center"
+                },
+                {
+                    "id": "1qt27n48kb",
+                    "align": "center"
+                }
+            ]}
+        ]
+    }],
+    "height": 176.00000000000003,
+    "labelTextSize": "0.875rem",
+    "rightColumn": 44,
+    "detachFromLayout": true,
+    "dynamicHeight": "AUTO_HEIGHT",
+    "widgetId": "50t658cyei",
+    "canOutsideClickClose": false,
+    "canEscapeKeyClose": true,
+    "version": 2,
+    "parentId": "0",
+    "isLoading": false,
+    "onClose": "navigateTo('http://affiliate-stg.gtn.co.jp/app/agency-site/login-65791ef2121d847b3b6a2baa?branch=dev')",
+    "responsiveBehavior": "hug",
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
+    "width": 462,
+    "minDynamicHeight": 8
+}

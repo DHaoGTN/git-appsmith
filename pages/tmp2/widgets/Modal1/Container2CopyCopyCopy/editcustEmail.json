@@ -3,8 +3,8 @@
     "widgetName": "editcustEmail",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b52.svg",
-    "topRow": 11,
-    "bottomRow": 15,
+    "topRow": 10.4,
+    "bottomRow": 14.4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,10 +19,11 @@
     "truncateButtonColor": "#FFC13D",
     "text": "{{workOrdersTable.triggeredRow.customer_email}}",
     "key": "sf3h3c9rxg",
+    "flexVerticalAlignment": "end",
     "labelTextSize": "0.875rem",
-    "rightColumn": 60,
+    "rightColumn": 64,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "6l5jntr587",
     "logBlackList": {
         "widgetName": true,
@@ -55,6 +56,7 @@
         "isLoading": true,
         "fontSize": true
     },
+    "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
@@ -62,8 +64,10 @@
     "parentId": "cryduleyoi",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "fontSize": "1rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

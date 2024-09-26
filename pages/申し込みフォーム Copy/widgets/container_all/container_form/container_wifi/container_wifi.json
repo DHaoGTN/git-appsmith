@@ -1,0 +1,140 @@
+{
+    "boxShadow": "none",
+    "borderColor": "#E0DEDE",
+    "isCanvas": true,
+    "iconSVG": "/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
+    "topRow": 158.60000000000062,
+    "type": "CONTAINER_WIDGET",
+    "topRowBeforeCollapse": 165,
+    "animateLoading": true,
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "isVisible"}
+    ],
+    "children": [{
+        "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+        "mobileBottomRow": 100,
+        "widgetName": "Canvas11",
+        "displayName": "Canvas",
+        "topRow": 0,
+        "bottomRow": 554.0000000000219,
+        "parentRowSpace": 1,
+        "type": "CANVAS_WIDGET",
+        "canExtend": false,
+        "hideCard": true,
+        "minHeight": 450,
+        "mobileRightColumn": 399.2962646484375,
+        "useAutoLayout": true,
+        "parentColumnSpace": 1,
+        "leftColumn": 0,
+        "dynamicBindingPathList": [
+            {"key": "borderRadius"},
+            {"key": "boxShadow"}
+        ],
+        "positioning": "vertical",
+        "key": "n1jamqhllc",
+        "isDeprecated": false,
+        "rightColumn": 399.2962646484375,
+        "detachFromLayout": true,
+        "dynamicHeight": "AUTO_HEIGHT",
+        "widgetId": "dymsqsc70k",
+        "containerStyle": "none",
+        "minWidth": 450,
+        "isVisible": true,
+        "version": 1,
+        "parentId": "fztb2dnld8",
+        "renderMode": "CANVAS",
+        "isLoading": false,
+        "mobileTopRow": 0,
+        "responsiveBehavior": "fill",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "mobileLeftColumn": 0,
+        "maxDynamicHeight": 9000,
+        "minDynamicHeight": 4,
+        "flexLayers": [
+            {"children": [{
+                "id": "v3c0ii99i0",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "c7bvm1i436",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "uze1aifo03",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "ny3ogs2tz3",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "3gwbarvd2u",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "u1y393k6pm",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "ryq9x5sver",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "kd8fsrg3wk",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "hgmqistggw",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "dfu09xs1r0",
+                "align": "start"
+            }]}
+        ]
+    }],
+    "flexVerticalAlignment": "stretch",
+    "dynamicHeight": "AUTO_HEIGHT",
+    "bottomRowBeforeCollapse": 194,
+    "isVisible": "{{service_wifi_cb.isChecked}}",
+    "version": 1,
+    "tags": ["Layout"],
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 215.79999999998108,
+    "alignment": "center",
+    "mobileBottomRow": 189,
+    "widgetName": "container_wifi",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "displayName": "Container",
+    "searchTags": [
+        "div",
+        "parent",
+        "group"
+    ],
+    "bottomRow": 214.0000000000028,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "shouldScrollContents": true,
+    "mobileRightColumn": 37,
+    "parentColumnSpace": 16.637344360351562,
+    "dynamicTriggerPathList": [],
+    "borderWidth": "0",
+    "key": "13y8hhdjz5",
+    "backgroundColor": "#FFFFFF",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "widgetId": "fztb2dnld8",
+    "containerStyle": "card",
+    "minWidth": 450,
+    "parentId": "frhfq10vkp",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 179,
+    "responsiveBehavior": "fill",
+    "originalTopRow": 159.79999999998265,
+    "mobileLeftColumn": 13,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 10
+}

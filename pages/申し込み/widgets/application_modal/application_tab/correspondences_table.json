@@ -65,7 +65,8 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1705403118722,
     "defaultSelectedRowIndices": [0],
-    "mobileBottomRow": 28,
+    "alignment": "start",
+    "mobileBottomRow": 30,
     "widgetName": "correspondences_table",
     "defaultPageSize": 0,
     "columnOrder": [
@@ -84,7 +85,7 @@
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
-    "mobileRightColumn": 15,
+    "mobileRightColumn": 64,
     "parentColumnSpace": 12.220703125,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",

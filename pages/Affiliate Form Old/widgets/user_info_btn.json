@@ -16,8 +16,8 @@
     "dynamicPropertyPathList": [],
     "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 1,
-    "bottomRow": 7,
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
         {"key": "menuItems.menuItem3dfuthklaq.onClick"},
         {"key": "menuItems.menuItemo22spze7ps.onClick"}
     ],
-    "leftColumn": 47,
+    "leftColumn": 52.25461254612546,
     "dynamicBindingPathList": [
         {"key": "menuItems.menuItem3dfuthklaq.label"},
         {"key": "label"}
@@ -37,8 +37,9 @@
     "isDisabled": false,
     "sourceData": "[]",
     "key": "0gcavasjcu",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "menuVariant": "PRIMARY",
     "widgetId": "hoe88fyti2",
     "menuItems": {
@@ -85,10 +86,12 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 3,
+    "responsiveBehavior": "hug",
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 14,
     "menuItemsSource": "STATIC",
     "menuColor": "#2d969b",
     "iconAlign": "right",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "end"
 }

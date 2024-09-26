@@ -8,8 +8,20 @@
     "archivedActions": [],
     "variables": [
       {
-        "name": "secret",
-        "value": "'nadnvkflmsdckdmcakdsmckvmscsdkmdsofscdsc'"
+        "name": "secretBE",
+        "value": "'secret'"
+      },
+      {
+        "name": "baseUrlBE",
+        "value": "'http://affiliate-stg-api.gtn.co.jp/rpa/'"
+      },
+      {
+        "name": "getSecretBE",
+        "value": "auth.baseUrlBE + 'get_secret'"
+      },
+      {
+        "name": "rpaBE",
+        "value": "auth.baseUrlBE + 'application_forms'"
       },
       {
         "name": "jwtBE",

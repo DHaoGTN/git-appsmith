@@ -1,0 +1,4 @@
+--ALTER DATABASE affiliate
+--SET TIMEZONE TO 'Asia/Tokyo';
+--SHOW timezone;
+DELETE FROM public."user_tokens" WHERE token = '{{this.params.token}}';

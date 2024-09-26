@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 28,
-    "bottomRow": 34,
+    "topRow": 24.2390625,
+    "bottomRow": 30.078125,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.717254638671875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,8 +30,9 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "在留カード氏名/Name on Residence card:\n       \n      {{get_wifi_application_details.data[0].visa_name}}",
     "key": "nqhopa7nrb",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 27,
+    "rightColumn": 32,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "pjluiaebgk",
@@ -55,5 +56,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 30,
     "fontSize": "0.875rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

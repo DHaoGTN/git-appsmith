@@ -10,20 +10,21 @@
         "click",
         "submit"
     ],
-    "topRow": 1,
-    "bottomRow": 6,
+    "topRow": 0,
+    "bottomRow": 5,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 64,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 58,
+    "leftColumn": 60,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "iconSize": 24,
     "isDisabled": false,
     "key": "q2xr9gnazq",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "iconName": "cross",
     "widgetId": "am76kj0gnv",
     "minWidth": 50,
@@ -37,5 +38,6 @@
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 58,
-    "buttonVariant": "TERTIARY"
+    "buttonVariant": "TERTIARY",
+    "alignment": "end"
 }

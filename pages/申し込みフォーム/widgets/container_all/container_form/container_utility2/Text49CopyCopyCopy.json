@@ -5,15 +5,15 @@
         {"key": "fontSize"},
         {"key": "isVisible"}
     ],
-    "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
+    "displayName": "Text",
+    "topRow": 34.51875,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "topRow": 27,
-    "bottomRow": 31,
+    "bottomRow": 38.51875,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -23,7 +23,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 10.085840225219727,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -33,6 +33,7 @@
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "3-5 ガスの立会希望時間を選択してください。/<span style=\"font-weight: normal;\">  Preferred time for gas inspection <\/span> <span style=\"color: red; font-style: italic;\">*<\/span>\n",
+    "flexVerticalAlignment": "end",
     "key": "tnzhrwntm2",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -49,8 +50,8 @@
         "Suggested",
         "Content"
     ],
-    "renderMode": "CANVAS",
     "isLoading": false,
+    "renderMode": "CANVAS",
     "mobileTopRow": 3,
     "responsiveBehavior": "fill",
     "originalTopRow": 27,
@@ -59,5 +60,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 31,
     "fontSize": "0.875rem",
+    "alignment": "end",
     "minDynamicHeight": 4
 }

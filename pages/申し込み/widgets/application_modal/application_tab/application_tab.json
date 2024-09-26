@@ -3,10 +3,10 @@
     "borderColor": "#E0DEDE",
     "isCanvas": true,
     "iconSVG": "/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
-    "topRow": 8,
+    "topRow": 5.6000000000000005,
     "type": "TABS_WIDGET",
     "animateLoading": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -20,18 +20,19 @@
         {
             "tabId": "tab1",
             "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-            "mobileBottomRow": 150,
+            "mobileBottomRow": 420,
             "widgetName": "Canvas2",
             "displayName": "Canvas",
-            "bottomRow": 660,
+            "bottomRow": 340.78125,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": true,
             "hideCard": true,
             "shouldScrollContents": false,
-            "minHeight": 150,
+            "minHeight": 380,
             "mobileRightColumn": 310.5,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "dynamicTriggerPathList": [],
             "leftColumn": 0,
@@ -39,6 +40,7 @@
                 {"key": "borderRadius"},
                 {"key": "boxShadow"}
             ],
+            "positioning": "vertical",
             "isDisabled": false,
             "key": "ays6f1nm2w",
             "isDeprecated": false,
@@ -59,15 +61,18 @@
             "mobileLeftColumn": 0,
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
-            "flexLayers": []
+            "flexLayers": [{"children": [{
+                "id": "9r0vi37vdm",
+                "align": "end"
+            }]}]
         },
         {
             "tabId": "tab2",
             "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-            "mobileBottomRow": 150,
+            "mobileBottomRow": 260,
             "widgetName": "Canvas3",
             "displayName": "Canvas",
-            "bottomRow": 660,
+            "bottomRow": 260,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -76,6 +81,7 @@
             "shouldScrollContents": false,
             "minHeight": 150,
             "mobileRightColumn": 310.5,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "dynamicTriggerPathList": [],
             "leftColumn": 0,
@@ -83,6 +89,7 @@
                 {"key": "borderRadius"},
                 {"key": "boxShadow"}
             ],
+            "positioning": "vertical",
             "isDisabled": false,
             "key": "ays6f1nm2w",
             "isDeprecated": false,
@@ -103,22 +110,26 @@
             "mobileLeftColumn": 0,
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
-            "flexLayers": []
+            "flexLayers": [{"children": [{
+                "id": "egkzlct1om",
+                "align": "end"
+            }]}]
         },
         {
             "tabId": "taboisgt0490e",
             "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-            "mobileBottomRow": 421,
+            "mobileBottomRow": 321,
             "widgetName": "Canvas4",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 700,
+            "bottomRow": 721,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
             "hideCard": true,
-            "minHeight": 420,
+            "minHeight": 720,
             "mobileRightColumn": 802.125,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "dynamicTriggerPathList": [],
             "leftColumn": 0,
@@ -126,6 +137,7 @@
                 {"key": "borderRadius"},
                 {"key": "boxShadow"}
             ],
+            "positioning": "vertical",
             "key": "ays6f1nm2w",
             "isDeprecated": false,
             "tabName": "対応履歴 correspondences",
@@ -146,22 +158,26 @@
             "mobileLeftColumn": 0,
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
-            "flexLayers": []
+            "flexLayers": [{"children": [{
+                "id": "joixbp35pd",
+                "align": "start"
+            }]}]
         },
         {
             "tabId": "tabe9g5m3lcq0",
             "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-            "mobileBottomRow": 421,
+            "mobileBottomRow": 417.0000000000001,
             "widgetName": "Canvas5",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 660,
+            "bottomRow": 310.5625,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
             "hideCard": true,
-            "minHeight": 420,
+            "minHeight": 320,
             "mobileRightColumn": 802.125,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "dynamicTriggerPathList": [],
             "leftColumn": 0,
@@ -169,6 +185,7 @@
                 {"key": "borderRadius"},
                 {"key": "boxShadow"}
             ],
+            "positioning": "vertical",
             "key": "ays6f1nm2w",
             "isDeprecated": false,
             "tabName": "電気ガス utility",
@@ -189,22 +206,26 @@
             "mobileLeftColumn": 0,
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
-            "flexLayers": []
+            "flexLayers": [{"children": [{
+                "id": "ydlsa6g08s",
+                "align": "center"
+            }]}]
         },
         {
             "tabId": "tabvzfazjcplm",
             "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-            "mobileBottomRow": 461,
+            "mobileBottomRow": 801,
             "widgetName": "Canvas6",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 670,
+            "bottomRow": 662.515625,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
             "hideCard": true,
-            "minHeight": 460,
+            "minHeight": 690,
             "mobileRightColumn": 802.125,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "dynamicTriggerPathList": [],
             "leftColumn": 0,
@@ -212,6 +233,7 @@
                 {"key": "borderRadius"},
                 {"key": "boxShadow"}
             ],
+            "positioning": "vertical",
             "key": "wjj4bsp06s",
             "isDeprecated": false,
             "tabName": "申込者 applicant",
@@ -232,11 +254,14 @@
             "mobileLeftColumn": 0,
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
-            "flexLayers": []
+            "flexLayers": [{"children": [{
+                "id": "kq47arm61c",
+                "align": "start"
+            }]}]
         }
     ],
     "flexVerticalAlignment": "stretch",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "shouldShowTabs": true,
     "isVisible": true,
@@ -245,7 +270,8 @@
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "originalBottomRow": 78,
-    "mobileBottomRow": 23,
+    "alignment": "center",
+    "mobileBottomRow": 55.6,
     "widgetName": "application_tab",
     "dynamicPropertyPathList": [
         {"key": "tabsObj.tab1.isVisible"},
@@ -254,18 +280,18 @@
         {"key": "tabsObj.taboisgt0490e.isVisible"}
     ],
     "displayName": "Tabs",
-    "bottomRow": 78,
+    "bottomRow": 43.678125,
     "parentRowSpace": 10,
     "hideCard": false,
     "shouldScrollContents": true,
-    "mobileRightColumn": 25,
+    "mobileRightColumn": 64,
     "parentColumnSpace": 12.9375,
     "dynamicTriggerPathList": [{"key": "onTabSelected"}],
     "borderWidth": 1,
     "key": "8pt8zsye2q",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "widgetId": "1hf50mk479",
     "defaultTab": "申込者 applicant",
     "onTabSelected": "{{handler_application_modal.handlerTabSelect();}}",
@@ -316,10 +342,10 @@
     },
     "parentId": "vjv84tn4bl",
     "renderMode": "CANVAS",
-    "mobileTopRow": 8,
+    "mobileTopRow": 9.600000000000001,
     "responsiveBehavior": "fill",
     "originalTopRow": 8,
-    "mobileLeftColumn": 1,
+    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 15
 }

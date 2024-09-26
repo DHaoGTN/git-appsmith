@@ -13,17 +13,166 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1820,
+          "bottomRow": 3510,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 670,
+          "minHeight": 3510,
+          "useAutoLayout": true,
           "parentColumnSpace": 1,
+          "responsiveBehavior": "fill",
           "dynamicBindingPathList": [],
-          "leftColumn": 0
+          "leftColumn": 0,
+          "positioning": "vertical",
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "hknfi3x8sc",
+                  "align": "start"
+                },
+                {
+                  "id": "fcra947zqw",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "gecaiirwf6",
+                  "align": "start"
+                },
+                {
+                  "id": "8sxlyg8xq0",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "zrtezzhtq2",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "9gge4hgihh",
+                  "align": "end"
+                },
+                {
+                  "id": "r8sj9anheo",
+                  "align": "end"
+                },
+                {
+                  "id": "4x3pieefhj",
+                  "align": "end"
+                },
+                {
+                  "id": "qkwz1gukhe",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "83d7b6w8nv",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "zmyx3nb8zl",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "encmpqksh2",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "5ls6290lnp",
+                  "align": "end"
+                },
+                {
+                  "id": "iuss4cadjk",
+                  "align": "end"
+                },
+                {
+                  "id": "3xddbip332",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "atcopsjlca",
+                  "align": "end"
+                },
+                {
+                  "id": "8gdi2z44ti",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "tkj5cavw0c",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "2pzwzr6zt5",
+                  "align": "end"
+                },
+                {
+                  "id": "d39mu14ez1",
+                  "align": "end"
+                },
+                {
+                  "id": "g3axpip7kj",
+                  "align": "end"
+                },
+                {
+                  "id": "ezfd2a11fk",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "uvpecv47g2",
+                  "align": "end"
+                },
+                {
+                  "id": "wa8ogzgbiw",
+                  "align": "end"
+                }
+              ]
+            }
+          ]
         },
         "layoutOnLoadActions": [
           [
@@ -41,6 +190,17 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "tmp1_start_up.startUp",
+              "name": "start_up.startUp",
+              "collectionId": "tmp1_start_up",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async function () {\n  const tokenExist = appsmith.store.token;\n  if (tokenExist === undefined) {\n    try {\n      const response = await auth_get_token.run();\n      storeValue('token', response);\n      start_up.getUser();\n      const token = response['id_token'];\n      await add_google_token_to_db.run({\n        token\n      }).then(() => console.log('Token successfully added to database')).catch(err => {\n        console.error('Error adding token to database:', err);\n      });\n    } catch (error) {\n      console.error('Token is deleted, please login again:', error);\n      navigateTo('Login');\n    }\n  }\n}"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -130,19 +290,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Select1.value"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "tmp1_start_up.startUp",
-              "name": "start_up.startUp",
-              "collectionId": "tmp1_start_up",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  const tokenExist = appsmith.store.token;\n  if (tokenExist === undefined) {\n    try {\n      const response = await auth_get_token.run();\n      storeValue('token', response);\n      start_up.getUser();\n      const token = response['id_token'];\n      await add_google_token_to_db.run({\n        token\n      }).then(() => console.log('Token successfully added to database')).catch(err => {\n        console.error('Error adding token to database:', err);\n      });\n    } catch (error) {\n      console.error('Token is deleted, please login again:', error);\n      navigateTo('Login');\n    }\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }

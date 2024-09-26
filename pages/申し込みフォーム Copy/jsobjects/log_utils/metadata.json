@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "log_utils",
+    "pageId": "申し込みフォーム Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "ip",
+        "value": "0"
+      },
+      {
+        "name": "ipAPI",
+        "value": "\"https://api.db-ip.com/v2/free/self\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "申し込みフォーム Copy_log_utils",
+  "deleted": false,
+  "gitSyncId": "65792b023010c95d5f5a84a2_65c0afd07083d359c781e44b"
+}

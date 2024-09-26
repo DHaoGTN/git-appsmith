@@ -1,0 +1,3 @@
+SELECT *
+FROM public.agency_accounts
+WHERE agency_id = {{appsmith.store.user.agency_id}};

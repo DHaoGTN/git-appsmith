@@ -1,0 +1,84 @@
+{
+  "unpublishedCollection": {
+    "name": "form",
+    "pageId": "申し込みフォーム Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "serviceAllowed",
+        "value": "''"
+      },
+      {
+        "name": "isWifiAllowed",
+        "value": "null"
+      },
+      {
+        "name": "isCardAllowed",
+        "value": "null"
+      },
+      {
+        "name": "isUtilitiesAllowed",
+        "value": "null"
+      },
+      {
+        "name": "resultCode",
+        "value": "0"
+      },
+      {
+        "name": "VALIDATE_NO_CHOICE",
+        "value": "0"
+      },
+      {
+        "name": "VALIDATE_CHOICE_ENOUGH",
+        "value": "1"
+      },
+      {
+        "name": "VALIDATE_CHOICE_NOT_ENOUGH",
+        "value": "2"
+      },
+      {
+        "name": "VALIDATE_DATA_INCORRECT",
+        "value": "3"
+      },
+      {
+        "name": "baseLink",
+        "value": "'http://affiliate-stg.gtn.co.jp/app/agency-site/page-65b217287083d359c781cf39?branch=dev&embed=true'"
+      },
+      {
+        "name": "loginLink",
+        "value": "'http://affiliate-stg.gtn.co.jp/app/agency-site/page-65791ef2121d847b3b6a2baa?branch=dev&embed=true'"
+      },
+      {
+        "name": "MODE_AGENCY",
+        "value": "1"
+      },
+      {
+        "name": "MODE_CUSTOMER",
+        "value": "2"
+      },
+      {
+        "name": "accessMode",
+        "value": "0"
+      },
+      {
+        "name": "agencyId",
+        "value": "0"
+      },
+      {
+        "name": "applicationId",
+        "value": "0"
+      },
+      {
+        "name": "applicantId",
+        "value": "0"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "申し込みフォーム Copy_form",
+  "deleted": false,
+  "gitSyncId": "65792b023010c95d5f5a84a2_65c0afd07083d359c781e439"
+}

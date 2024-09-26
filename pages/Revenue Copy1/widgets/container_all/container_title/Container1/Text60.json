@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 8,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 5.471000671386719,
     "dynamicTriggerPathList": [],
-    "leftColumn": 10,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,10 +30,11 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": " <span style=\"font-weight: normal;\"> 小計 (税抜)                  : <\/span> <span style=\"color: black; font-style: bold;\">¥ {{get_table_data.data[0] ?  (get_table_data.data[get_table_data.data.length-1].total_comission_fee).toLocaleString() : 0}}<\/span>\n \n <span style=\"font-weight: normal;\"> 消費税 (10%)　          :<\/span> <span style=\"color: black; font-style: bold;\"> ¥ {{get_table_data.data[0] ? (get_table_data.data[get_table_data.data.length-1].total_comission_fee/100*10).toLocaleString() : 0}}<\/span>",
     "key": "ltfunv8gjw",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 57,
+    "rightColumn": 64,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "ncr1uowi3w",
     "minWidth": 450,
     "isVisible": true,
@@ -53,5 +54,6 @@
     "mobileLeftColumn": 5,
     "maxDynamicHeight": 9000,
     "fontSize": "0.875rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

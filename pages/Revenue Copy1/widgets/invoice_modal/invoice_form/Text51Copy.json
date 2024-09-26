@@ -17,7 +17,7 @@
     "overflow": "NONE",
     "fontFamily": "Roboto",
     "dynamicTriggerPathList": [],
-    "leftColumn": 28,
+    "leftColumn": 21.333333333333332,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -26,8 +26,9 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "PREVIEW",
     "key": "lyur5hdbvl",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 42.66666666666667,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "sbxy7rdojs",
@@ -51,5 +52,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 5,
     "fontSize": "1rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

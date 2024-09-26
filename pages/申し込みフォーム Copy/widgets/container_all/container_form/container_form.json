@@ -1,0 +1,224 @@
+{
+    "boxShadow": "none",
+    "widgetName": "container_form",
+    "borderColor": "transparent",
+    "isCanvas": true,
+    "dynamicPropertyPathList": [
+        {"key": "isVisible"},
+        {"key": "borderRadius"}
+    ],
+    "displayName": "Container",
+    "iconSVG": "/static/media/icon.1977dca3.svg",
+    "topRow": 25.2375,
+    "bottomRow": 373.6437500000051,
+    "parentRowSpace": 10,
+    "type": "CONTAINER_WIDGET",
+    "hideCard": false,
+    "shouldScrollContents": true,
+    "animateLoading": true,
+    "parentColumnSpace": 18.0625,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [],
+    "children": [{
+        "boxShadow": "none",
+        "widgetName": "Canvas5Copy",
+        "displayName": "Canvas",
+        "topRow": 0,
+        "bottomRow": 3484.062500000051,
+        "parentRowSpace": 1,
+        "type": "CANVAS_WIDGET",
+        "canExtend": false,
+        "hideCard": true,
+        "minHeight": 2970,
+        "useAutoLayout": true,
+        "parentColumnSpace": 1,
+        "leftColumn": 0,
+        "positioning": "vertical",
+        "key": "ffadum178l",
+        "labelTextSize": "0.875rem",
+        "rightColumn": 433.5,
+        "detachFromLayout": true,
+        "widgetId": "frhfq10vkp",
+        "containerStyle": "none",
+        "isVisible": true,
+        "version": 1,
+        "parentId": "5zmkgyje37",
+        "renderMode": "CANVAS",
+        "isLoading": false,
+        "responsiveBehavior": "fill",
+        "borderRadius": "0px",
+        "flexLayers": [
+            {"children": [{
+                "id": "1qdt0830e9",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "tyfrfpsrvy",
+                    "align": "center"
+                },
+                {
+                    "id": "mwn7j452fd",
+                    "align": "center"
+                }
+            ]},
+            {"children": [{
+                "id": "rxm06i1xzw",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "cmkbdwiz78",
+                    "align": "center"
+                },
+                {
+                    "id": "xze7a2sv2x",
+                    "align": "center"
+                }
+            ]},
+            {"children": [{
+                "id": "7wyunteffo",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "hc0rljzxxn",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "vqwr40ha3p",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "qzayrusaj6",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "aiowc19fna",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "kwmtrwywta",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "t5te6hdmql",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "ul3ww8cj8d",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "bynrtt7zi6",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "1snpekr0eu",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "5tvcwyk5fm",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "xuh8uqar06",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "ryj9vt1iud",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "81h9tdp61f",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "3e9jn7pec9",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "6l8m0ehte9",
+                "align": "center"
+            }]},
+            {"children": [
+                {
+                    "id": "mx3o9ayse3",
+                    "align": "center"
+                },
+                {
+                    "id": "pen11xwn4i",
+                    "align": "center"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "2wdc5sy49b",
+                    "align": "center"
+                },
+                {
+                    "id": "xb2mzdjbsk",
+                    "align": "center"
+                }
+            ]},
+            {"children": [{
+                "id": "fl2ns85qiv",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "0dy35z1bsm",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "iu8dls823d",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "ymucmnycb0",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "etnieokgie",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "fztb2dnld8",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "gk6gkim1or",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "pa1mcrr3qf",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "m1sertygif",
+                "align": "center"
+            }]}
+        ]
+    }],
+    "borderWidth": "0",
+    "key": "6bzu8mpizb",
+    "flexVerticalAlignment": "stretch",
+    "labelTextSize": "0.875rem",
+    "backgroundColor": "#FFFFFF",
+    "rightColumn": 64,
+    "dynamicHeight": "AUTO_HEIGHT",
+    "widgetId": "5zmkgyje37",
+    "containerStyle": "card",
+    "minWidth": 450,
+    "isVisible": "true",
+    "version": 1,
+    "parentId": "nvdqymjvt9",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "originalTopRow": 27.399999999989802,
+    "responsiveBehavior": "fill",
+    "borderRadius": "15px",
+    "maxDynamicHeight": 9000,
+    "originalBottomRow": 378.256249999984,
+    "alignment": "start",
+    "minDynamicHeight": 10
+}

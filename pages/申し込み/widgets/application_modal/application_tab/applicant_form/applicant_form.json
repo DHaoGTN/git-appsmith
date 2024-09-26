@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 118,
+    "mobileBottomRow": 78,
     "borderColor": "",
     "widgetName": "applicant_form",
     "isCanvas": true,
@@ -9,12 +9,12 @@
     "iconSVG": "/static/media/icon.e17c486a34778f3bae299c9110e00cf6.svg",
     "searchTags": ["group"],
     "topRow": 0,
-    "bottomRow": 67,
+    "bottomRow": 64.1515625,
     "parentRowSpace": 10,
     "type": "FORM_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
-    "mobileRightColumn": 35,
+    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 12.220703125,
     "dynamicTriggerPathList": [],
@@ -22,23 +22,25 @@
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-        "mobileBottomRow": 400,
+        "mobileBottomRow": 779.9999999999999,
         "widgetName": "Canvas7",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 670,
+        "bottomRow": 641.515625,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 400,
+        "minHeight": 570,
         "mobileRightColumn": 293.296875,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "key": "8ssdij9ywk",
         "isDeprecated": false,
         "rightColumn": 293.296875,
@@ -58,7 +60,86 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [
+                {
+                    "id": "pkk02k32y2",
+                    "align": "start"
+                },
+                {
+                    "id": "fehw7cs2ji",
+                    "align": "end"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "vfaz4x3f27",
+                    "align": "start"
+                },
+                {
+                    "id": "e2xfzznxbp",
+                    "align": "end"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "albl3hz7c9",
+                    "align": "start"
+                },
+                {
+                    "id": "0d1y1wn5b2",
+                    "align": "end"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "h2p82y2jg1",
+                    "align": "start"
+                },
+                {
+                    "id": "b6vj6ynyix",
+                    "align": "end"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "r0raapb1we",
+                    "align": "start"
+                },
+                {
+                    "id": "noxowdf99s",
+                    "align": "end"
+                }
+            ]},
+            {"children": [{
+                "id": "hewuvy943x",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "mr2hfmz4a0",
+                    "align": "start"
+                },
+                {
+                    "id": "2rpfjtq0ra",
+                    "align": "end"
+                }
+            ]},
+            {"children": [{
+                "id": "tda80c62zw",
+                "align": "center"
+            }]},
+            {"children": [
+                {
+                    "id": "577gs841ge",
+                    "align": "start"
+                },
+                {
+                    "id": "0r05pbw4xq",
+                    "align": "end"
+                }
+            ]}
+        ]
     }],
     "borderWidth": "1",
     "positioning": "fixed",
@@ -75,12 +156,13 @@
     "tags": ["Layout"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 78,
+    "mobileTopRow": 0,
     "responsiveBehavior": "fill",
     "originalTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 11,
+    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 67,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

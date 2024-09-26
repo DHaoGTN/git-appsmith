@@ -11,8 +11,8 @@
         "parent",
         "group"
     ],
-    "topRow": 4,
-    "bottomRow": 93,
+    "topRow": 0,
+    "bottomRow": 82.00000000000001,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.296875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -32,19 +32,21 @@
         "widgetName": "Canvas8",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 890,
+        "bottomRow": 820.0000000000001,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 100,
+        "minHeight": 830,
         "mobileRightColumn": 463.125,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "key": "t5iplzs8e0",
         "isDeprecated": false,
         "rightColumn": 463.125,
@@ -64,14 +66,23 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [{
+                "id": "hoe88fyti2",
+                "align": "end"
+            }]},
+            {"children": [{
+                "id": "p1lbnpwctw",
+                "align": "center"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "flexVerticalAlignment": "stretch",
     "key": "7au97efuvd",
     "backgroundColor": "#93c5fd",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "s3whvu6zjc",
     "containerStyle": "card",
@@ -89,5 +100,6 @@
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 93,
+    "alignment": "center",
     "minDynamicHeight": 10
 }

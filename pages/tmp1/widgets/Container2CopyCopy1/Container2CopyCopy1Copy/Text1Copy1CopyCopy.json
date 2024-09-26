@@ -7,8 +7,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 1,
-    "bottomRow": 5,
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -17,7 +17,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 4.3310546875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 17,
+    "leftColumn": 63.54609929078014,
     "dynamicBindingPathList": [
         {"key": "fontFamily"},
         {"key": "borderRadius"}
@@ -25,11 +25,13 @@
     "shouldTruncate": false,
     "text": "Applications",
     "key": "8ao8442ejy",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 90.78014184397163,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "76ofmr02g8",
+    "minWidth": 450,
     "isVisible": true,
     "fontStyle": "",
     "textColor": "#231F20",
@@ -37,8 +39,10 @@
     "parentId": "oilnrks0yx",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
     "fontSize": "1.25rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

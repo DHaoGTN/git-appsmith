@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 8.770856857299805,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,10 +29,11 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "代理店 詳細",
     "key": "l14jgoryw8",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 31,
+    "rightColumn": 64,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "2ou8kn4wxy",
     "minWidth": 450,
     "isVisible": true,
@@ -52,5 +53,6 @@
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "fontSize": "1rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

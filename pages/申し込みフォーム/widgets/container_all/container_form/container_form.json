@@ -9,8 +9,8 @@
     ],
     "displayName": "Container",
     "iconSVG": "/static/media/icon.1977dca3.svg",
-    "topRow": 22,
-    "bottomRow": 377,
+    "topRow": 25.2375,
+    "bottomRow": 373.59218749999997,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -25,14 +25,16 @@
         "widgetName": "Canvas5Copy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 3550,
+        "bottomRow": 3483.5468749999995,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 400,
+        "minHeight": 2970,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
+        "positioning": "vertical",
         "key": "ffadum178l",
         "labelTextSize": "0.875rem",
         "rightColumn": 433.5,
@@ -44,24 +46,179 @@
         "parentId": "kp5w51utgc",
         "renderMode": "CANVAS",
         "isLoading": false,
-        "borderRadius": "0px"
+        "responsiveBehavior": "fill",
+        "borderRadius": "0px",
+        "flexLayers": [
+            {"children": [{
+                "id": "c4a6y8srp6",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "17016catca",
+                    "align": "center"
+                },
+                {
+                    "id": "z6lg4ei7hl",
+                    "align": "center"
+                }
+            ]},
+            {"children": [{
+                "id": "hrt41ql6lv",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "wwit0xn3iv",
+                    "align": "center"
+                },
+                {
+                    "id": "tlabyk9e9s",
+                    "align": "center"
+                }
+            ]},
+            {"children": [{
+                "id": "q1e24fy0q1",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "6ehjl872s6",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "tp6plbjko0",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "uivpe2utjt",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "j8fcl8mmlr",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "audzr49rca",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "hm859gvexg",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "wnoqwy8hq5",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "4113ob80ca",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "v5p5uz3o69",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "yutmgis5kt",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "jd3ky034lm",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "b179wj65sz",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "41k174hb3z",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "ngetcy4xke",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "ndrjq04f5b",
+                "align": "center"
+            }]},
+            {"children": [
+                {
+                    "id": "br9cmabp6d",
+                    "align": "center"
+                },
+                {
+                    "id": "e1655egc87",
+                    "align": "center"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "ae9ku8ln7r",
+                    "align": "center"
+                },
+                {
+                    "id": "k7ydaiweae",
+                    "align": "center"
+                }
+            ]},
+            {"children": [{
+                "id": "t0zrari5yc",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "ps128711v7",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "yu1i9oslch",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "zn3pak7gap",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "agay7htcqd",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "k6cpd7egbq",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "kwuzavrmmc",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "kvtet48rq1",
+                "align": "center"
+            }]},
+            {"children": [{
+                "id": "b0nhqpmp9i",
+                "align": "center"
+            }]}
+        ]
     }],
     "borderWidth": "0",
     "key": "6bzu8mpizb",
+    "flexVerticalAlignment": "stretch",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#FFFFFF",
-    "rightColumn": 60,
+    "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "kp5w51utgc",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": "true",
     "version": 1,
     "parentId": "i0qokivosc",
     "renderMode": "CANVAS",
     "isLoading": false,
     "originalTopRow": 22,
+    "responsiveBehavior": "fill",
     "borderRadius": "15px",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 377,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

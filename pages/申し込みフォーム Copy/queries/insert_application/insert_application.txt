@@ -1,0 +1,1 @@
+INSERT INTO public."applications" (agency_id, applicant_id, service_type_codes) VALUES ('{{this.params.agencyId}}', '{{this.params.applicantId}}', '{{this.params.serviceTypeCodes}}') RETURNING id;

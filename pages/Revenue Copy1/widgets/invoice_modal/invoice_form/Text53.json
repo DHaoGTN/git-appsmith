@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 2,
-    "bottomRow": 14,
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.976747512817383,
     "dynamicTriggerPathList": [],
-    "leftColumn": 5,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,10 +29,11 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "<span style=\"color: red; font-weight: bold;font-size:25px\">GTN inc<\/span>\nxxx street.\nTokyo, Japan, 33333\nTel: 070-1234-1234\nEmail: gtn@gmail.com\n \n",
     "key": "lyur5hdbvl",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 21,
+    "rightColumn": 21.333333333333332,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "sff1ynwyz4",
     "minWidth": 450,
     "isVisible": true,
@@ -52,5 +53,6 @@
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "fontSize": "1rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

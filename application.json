@@ -39,6 +39,10 @@
     {
       "id": "Revenue Copy1",
       "isDefault": false
+    },
+    {
+      "id": "申し込みフォーム Copy",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -46,7 +50,7 @@
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
-      "type": "FIXED"
+      "type": "AUTO"
     },
     "navigationSetting": {
       "showNavbar": true,

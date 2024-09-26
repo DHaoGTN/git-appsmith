@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 12,
-    "bottomRow": 16,
+    "topRow": 10.4,
+    "bottomRow": 14.4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 5.471000671386719,
     "dynamicTriggerPathList": [],
-    "leftColumn": 9,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,10 +30,11 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "合計金額(税込)               : ¥ {{get_table_data.data[0] ? ((get_table_data.data[get_table_data.data.length-1].total_comission_fee)+(get_table_data.data[get_table_data.data.length-1].total_comission_fee/100*10)).toLocaleString() : 0}}",
     "key": "ltfunv8gjw",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 53,
+    "rightColumn": 64,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "hx2jxeyq2p",
     "minWidth": 450,
     "isVisible": true,
@@ -53,5 +54,6 @@
     "mobileLeftColumn": 5,
     "maxDynamicHeight": 9000,
     "fontSize": "1rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

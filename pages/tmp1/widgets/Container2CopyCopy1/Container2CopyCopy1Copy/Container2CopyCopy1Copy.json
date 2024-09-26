@@ -10,33 +10,35 @@
         "parent",
         "group"
     ],
-    "topRow": 27,
-    "bottomRow": 44,
+    "topRow": 11.4,
+    "bottomRow": 23.6,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
     "animateLoading": true,
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 45,
+    "leftColumn": 0,
     "dynamicBindingPathList": [],
     "children": [{
         "boxShadow": "none",
         "widgetName": "Canvas2CopyCopyCopy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 170,
+        "bottomRow": 122.00000000000001,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 400,
+        "minHeight": 110,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "accentColor"}
         ],
+        "positioning": "vertical",
         "key": "iv16tz47h6",
         "isDeprecated": false,
         "rightColumn": 475.5,
@@ -49,22 +51,43 @@
         "parentId": "saxmexunk1",
         "renderMode": "CANVAS",
         "isLoading": false,
-        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+        "responsiveBehavior": "fill",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "flexLayers": [
+            {"children": [
+                {
+                    "id": "hpiyryomtg",
+                    "align": "start"
+                },
+                {
+                    "id": "76ofmr02g8",
+                    "align": "start"
+                }
+            ]},
+            {"children": [{
+                "id": "w9y167wfpv",
+                "align": "start"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "key": "i2gkdaesc8",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "#E6E9F5",
     "isDeprecated": false,
-    "rightColumn": 54,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 64,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "saxmexunk1",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "u5hzqixdch",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
+    "alignment": "center",
     "minDynamicHeight": 4
 }

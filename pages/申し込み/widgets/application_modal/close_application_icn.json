@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 4,
+    "mobileBottomRow": 8.8,
     "widgetName": "close_application_icn",
     "onClick": "{{closeModal('application_modal');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -11,13 +11,13 @@
         "submit"
     ],
     "topRow": 0,
-    "bottomRow": 5,
+    "bottomRow": 4,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 64,
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 58,
+    "leftColumn": 60.86830998837849,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -25,6 +25,7 @@
     "iconSize": 24,
     "isDisabled": false,
     "key": "2glf4t04j9",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
     "iconName": "cross",
@@ -36,9 +37,10 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 0,
+    "mobileTopRow": 4.8,
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 58,
-    "buttonVariant": "TERTIARY"
+    "mobileLeftColumn": 53.28421933863541,
+    "buttonVariant": "TERTIARY",
+    "alignment": "end"
 }

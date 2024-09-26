@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 1,
-    "bottomRow": 6,
+    "topRow": 0,
+    "bottomRow": 5,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 17.09808349609375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 46,
+    "leftColumn": 49,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"},
@@ -30,8 +30,9 @@
     "text": "Download ",
     "isDisabled": "{{year_month_treeselect.selectedOptionLabel.length === 4}}\n",
     "key": "fs51mtna1s",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 57,
+    "rightColumn": 60,
     "isDefaultClickDisabled": true,
     "widgetId": "2nqp2u1o9y",
     "minWidth": 120,
@@ -50,5 +51,6 @@
     "mobileLeftColumn": 47,
     "originalBottomRow": 37,
     "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "end"
 }

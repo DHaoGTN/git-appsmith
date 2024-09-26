@@ -1,46 +1,71 @@
 {
+    "mobileWidthInPercentage": 0.37265625,
     "boxShadow": "none",
     "widgetName": "alert_modal",
+    "widthInPercentage": 0.37265625,
     "dynamicPropertyPathList": [{"key": "onClose"}],
-    "topRow": 13,
-    "bottomRow": 37,
+    "topRow": 376.79218749999995,
+    "bottomRow": 394.19218749999993,
     "parentRowSpace": 10,
     "type": "MODAL_WIDGET",
     "shouldScrollContents": true,
     "parentColumnSpace": 18.8828125,
     "dynamicTriggerPathList": [{"key": "onClose"}],
-    "leftColumn": 21,
+    "leftColumn": 20,
     "dynamicBindingPathList": [],
     "children": [{
-        "labelTextSize": "0.875rem",
         "boxShadow": "none",
         "widgetName": "Canvas3",
-        "rightColumn": 453.1875,
-        "detachFromLayout": true,
-        "widgetId": "zi8fjakv8o",
         "topRow": 0,
-        "bottomRow": 230,
+        "bottomRow": 170,
         "parentRowSpace": 1,
-        "isVisible": "true",
         "canExtend": true,
         "type": "CANVAS_WIDGET",
-        "version": 1,
-        "parentId": "i3whp03wf0",
         "shouldScrollContents": false,
-        "minHeight": 230,
-        "isLoading": false,
+        "minHeight": 170,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "dynamicTriggerPathList": [],
         "leftColumn": 0,
         "dynamicBindingPathList": [],
+        "positioning": "vertical",
+        "isDisabled": false,
+        "labelTextSize": "0.875rem",
+        "rightColumn": 453.1875,
+        "detachFromLayout": true,
+        "widgetId": "zi8fjakv8o",
+        "isVisible": "true",
+        "version": 1,
+        "parentId": "i3whp03wf0",
+        "isLoading": false,
+        "responsiveBehavior": "fill",
         "borderRadius": "0px",
-        "isDisabled": false
+        "flexLayers": [
+            {"children": [{
+                "id": "35yoxo4oec",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "48uac29g6e",
+                "align": "center"
+            }]},
+            {"children": [
+                {
+                    "id": "lryg8kw537",
+                    "align": "center"
+                },
+                {
+                    "id": "qq02lh7ust",
+                    "align": "center"
+                }
+            ]}
+        ]
     }],
-    "height": 230,
+    "height": 176.00000000000003,
     "labelTextSize": "0.875rem",
-    "rightColumn": 45,
+    "rightColumn": 44,
     "detachFromLayout": true,
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "i3whp03wf0",
     "canOutsideClickClose": false,
     "canEscapeKeyClose": true,
@@ -48,8 +73,9 @@
     "parentId": "0",
     "isLoading": false,
     "onClose": "navigateTo('http://affiliate-stg.gtn.co.jp/app/agency-site/login-65791ef2121d847b3b6a2baa?branch=dev')",
+    "responsiveBehavior": "hug",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "width": 462,
-    "minDynamicHeight": 4
+    "minDynamicHeight": 8
 }

@@ -1,29 +1,13 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 189,
     "borderColor": "#E0DEDE",
-    "widgetName": "container_wifi",
     "isCanvas": true,
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "iconSVG": "/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
-    "displayName": "Container",
-    "topRow": 177,
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "bottomRow": 225,
-    "parentRowSpace": 10,
+    "topRow": 158.59999999999997,
     "type": "CONTAINER_WIDGET",
-    "hideCard": false,
     "topRowBeforeCollapse": 165,
-    "shouldScrollContents": true,
-    "mobileRightColumn": 37,
     "animateLoading": true,
-    "parentColumnSpace": 16.637344360351562,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 10,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "isVisible"}
@@ -34,19 +18,21 @@
         "widgetName": "Canvas11",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 480,
+        "bottomRow": 554,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 100,
+        "minHeight": 450,
         "mobileRightColumn": 399.2962646484375,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "key": "n1jamqhllc",
         "isDeprecated": false,
         "rightColumn": 399.2962646484375,
@@ -66,31 +52,89 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [
+            {"children": [{
+                "id": "5dse5rujfh",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "xjkpm0sxep",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "4x34pj64qj",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "dut5ysyzlk",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "4l3xnajm2s",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "qwb1h5pelt",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "kxj6yjcavt",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "s0j0pqgrf2",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "cndf1czduw",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "heqmtwr0wu",
+                "align": "start"
+            }]}
+        ]
     }],
-    "borderWidth": "0",
     "flexVerticalAlignment": "stretch",
+    "dynamicHeight": "AUTO_HEIGHT",
+    "bottomRowBeforeCollapse": 194,
+    "isVisible": "{{service_wifi_cb.isChecked}}",
+    "version": 1,
+    "tags": ["Layout"],
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 225,
+    "alignment": "center",
+    "mobileBottomRow": 189,
+    "widgetName": "container_wifi",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "displayName": "Container",
+    "searchTags": [
+        "div",
+        "parent",
+        "group"
+    ],
+    "bottomRow": 213.99999999999997,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "shouldScrollContents": true,
+    "mobileRightColumn": 37,
+    "parentColumnSpace": 16.637344360351562,
+    "dynamicTriggerPathList": [],
+    "borderWidth": "0",
     "key": "13y8hhdjz5",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 51,
-    "dynamicHeight": "AUTO_HEIGHT",
+    "rightColumn": 64,
     "widgetId": "k6cpd7egbq",
     "containerStyle": "card",
-    "bottomRowBeforeCollapse": 194,
     "minWidth": 450,
-    "isVisible": "{{service_wifi_cb.isChecked}}",
-    "version": 1,
     "parentId": "f6o5ujc94b",
-    "tags": ["Layout"],
-    "isLoading": false,
     "renderMode": "CANVAS",
     "mobileTopRow": 179,
     "responsiveBehavior": "fill",
     "originalTopRow": 177,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 13,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 225,
     "minDynamicHeight": 10
 }

@@ -2,15 +2,15 @@
     "mobileBottomRow": 4,
     "widgetName": "Text44CopyCopyCopyCopy",
     "dynamicPropertyPathList": [{"key": "fontSize"}],
-    "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
+    "displayName": "Text",
+    "topRow": 41.60000000000001,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "topRow": 35,
-    "bottomRow": 39,
+    "bottomRow": 45.60000000000001,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -29,9 +29,10 @@
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "1-在留カード期限/<span style=\"font-weight: normal;\"> Residence card Expired date<\/span> <span style=\"color: red; font-style: italic;\">*<\/span>",
+    "flexVerticalAlignment": "end",
     "key": "ll5l55z1hj",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "cndf1czduw",
@@ -45,8 +46,8 @@
         "Suggested",
         "Content"
     ],
-    "renderMode": "CANVAS",
     "isLoading": false,
+    "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
     "originalTopRow": 34,
@@ -55,5 +56,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 38,
     "fontSize": "0.8rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

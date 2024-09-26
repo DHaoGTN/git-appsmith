@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 14,
-    "bottomRow": 27,
+    "topRow": 10.4,
+    "bottomRow": 14.4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.976747512817383,
     "dynamicTriggerPathList": [],
-    "leftColumn": 5,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,8 +30,9 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "<span style=\" font-weight: bold;font-size:20px\">Billing to<\/span>\n{{get_agency_by_id.data[0].name}}\n{{get_agency_by_id.data[0].prefecture}} {{get_agency_by_id.data[0].city}}  {{get_agency_by_id.data[0].building}} {{get_agency_by_id.data[0].address_detail}}\nTel: {{get_agency_by_id.data[0].phone_number}}\nEmail: {{get_agency_by_id.data[0].email}}\n\n",
     "key": "lyur5hdbvl",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "zfx56fi1xi",
@@ -55,5 +56,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 27,
     "fontSize": "1rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

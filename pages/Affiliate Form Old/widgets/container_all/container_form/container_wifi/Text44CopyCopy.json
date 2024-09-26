@@ -2,15 +2,15 @@
     "mobileBottomRow": 4,
     "widgetName": "Text44CopyCopy",
     "dynamicPropertyPathList": [{"key": "fontSize"}],
-    "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
+    "displayName": "Text",
+    "topRow": 20.799999999999997,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "topRow": 17,
-    "bottomRow": 21,
+    "bottomRow": 24.799999999999997,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -29,9 +29,10 @@
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "1-在留カード（裏）アップロード/<span style=\"font-weight: normal;\"> Resident card (back) upload<\/span> <span style=\"color: red; font-style: italic;\">*<\/span>\n",
+    "flexVerticalAlignment": "end",
     "key": "ll5l55z1hj",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "4l3xnajm2s",
@@ -45,8 +46,8 @@
         "Suggested",
         "Content"
     ],
-    "renderMode": "CANVAS",
     "isLoading": false,
+    "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
     "originalTopRow": 27,
@@ -55,5 +56,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 31,
     "fontSize": "0.8rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }
